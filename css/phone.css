@@ -1,0 +1,334 @@
+#navbar {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+}
+
+#navbar .logo {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar .icons {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.nav_menu {
+    display: inline;
+    margin: 0rem 1rem 0rem 0rem;
+}
+
+#navbar ul li a {
+    display: none;
+}
+
+#navbar #menu-bar {
+    display: inline-block;
+}
+
+#home-section .heading {
+    font-size: 1rem;
+}
+
+#home-section {
+    display: flex;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    font-size: 1rem;
+    margin-top: 150px;
+}
+
+#home-section::before {
+    content: "";
+    background: url(../images/home-img.jpeg) no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 640px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#home-section button {
+    padding: 0.7rem 0rem 0.7rem 0rem;
+    width: 60%;
+    background: none;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+#home-section h3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: auto;
+    margin-top: 2rem;
+    width: auto;
+}
+
+#home-section p {
+    font-size: 1rem;
+    margin-bottom: auto;
+    line-height: auto;
+}
+
+#about-section {
+    width: auto;
+}
+
+#about-section .title {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+}
+
+#about-section .card {
+    flex-direction: column;
+    height: 100%;
+    width: auto;
+    text-align: center;
+    /* border: 2px solid red; */
+    /* align-items: center; */
+}
+
+#about-section .card img {
+    height: auto;
+    width: auto;
+}
+
+#about-section .card .card-content button {
+    padding: 0.7rem 0rem 0.7rem 0rem;
+    width: 49%;
+    background: none;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+#menu-section {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0% 10%;
+}
+
+#menu-section .menu-items {
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+#menu-section .menu-items .menu-item button {
+    padding: 0.7rem 0rem 0.7rem 0rem;
+    width: 9rem;
+    background: none;
+    color: rgb(255 255 255);
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+#menu-section .menu-items .menu-item button:hover {
+    letter-spacing: 4px;
+    width: 10rem;
+    transition: all .5s ease-in-out;
+    color: chocolate;
+    border: 1px solid chocolate;
+}
+
+/* product-section and styling */
+#product-section .product-items .product-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    margin: 2rem 0rem;
+    border: 2px solid rgb(24, 23, 23);
+    flex-direction: column;
+    color: white;
+    height: auto;
+}
+
+#product-section {
+    font-size: 1rem;
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 0% 10%;
+}
+
+#product-section .product-items {
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+
+#product-section .product-items .btn:hover {
+    width: 10rem;
+}
+
+#product-section .title h3 {
+    font-size: 2rem;
+}
+
+/* customer-section and styling */
+
+#customer-section {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0% 10%;
+}
+
+#customer-section .review-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+    padding: 2rem 2rem;
+    border: 2px solid rgb(24, 23, 23);
+}
+
+#customer-section .review-items {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: 1rem 0rem;
+    padding: auto;
+}
+
+#customer-section .title h3 {
+    font-size: 1.6rem;
+}
+
+#contact-section {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0% 10%;
+}
+
+#contact-section .contact-box iframe {
+    width: 104%;
+}
+
+#contact-section .contact-box {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+#contact-section .contact-form button {
+    margin: 1rem 0rem;
+    padding: 0.7rem 0rem 0.7rem 0rem;
+    width: 9rem;
+    background: none;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+#contact-section .title h3 {
+    font-size: 1.6rem;
+}
+
+#blog-section {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0% 10%;
+}
+
+#blog-section .blog-items {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+#blog-section .blog-item button {
+    margin: 1rem 1rem;
+    padding: 0.7rem 0rem 0.7rem 0rem;
+    width: 6rem;
+    background: none;
+    color: white;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+#blog-section .blog-item button:hover {
+    letter-spacing: 4px;
+    width: 10rem;
+    transition: all .5s ease-in-out;
+    color: chocolate;
+    border: 1px solid chocolate;
+}
+
+#blog-section .title h3 {
+    font-size: 1.6rem;
+}
+
+#footer-section {
+    height: auto;
+    width: auto;
+}
+
+#footer-section {
+    color: white;
+    background-color: #13131a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+#footer-section .fab {
+    border: 2px solid rgb(78, 76, 76);
+    padding: 1rem;
+    border-radius: 100%;
+    height: auto;
+    text-align: center;
+    width: 1.2rem;
+    margin: 0rem 0.2rem;
+}
+
+#footer-section .links {
+    margin: 1rem 1rem;
+}
+
+#footer-section .footer-nav .links {
+    padding: 0rem 0rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#footer-section .footer-nav .links a {
+    margin: auto;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#footer-section .footer-para1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 70px;
+    margin: 0px;
+}
